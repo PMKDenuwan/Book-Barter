@@ -1,0 +1,33 @@
+📚 BookBarter – Community Book Exchange Platform
+BookBarter is a full-stack MERN (MongoDB, Express, React, Node.js) web application designed for book lovers to connect, share, and trade books in a social-media-like environment.
+It allows users to post reading activities, exchange books, sell/rent old books, and interact with the book community through likes, comments, and following features.
+
+🔥 Key Features
+🧑‍🤝‍🧑 User Authentication – Secure signup/login with JWT
+
+📘 Create Posts – Share book-related posts with images
+
+❤️ Like & Comment – Engage with others' content
+
+👥 Follow/Unfollow Users – Build your reading network
+
+🔄 Book Exchange – Match with users based on interest & location (without ML!)
+
+💰 Sell/Rent Books – Earn or lend from your personal collection
+
+💬 Chat System – Direct messaging for trade deals and discussions
+
+🛎️ Notification System – Real-time alerts on interactions (optional)
+
+🏗️ Tech Stack
+Frontend: React.js, Tailwind CSS
+
+Backend: Node.js, Express.js
+
+Database: MongoDB + Mongoose
+
+Authentication: JWT (JSON Web Tokens)
+
+File Uploads: Multer (for post images and book covers)
+
+Deployment: Render / Netlify / Vercel (optional)
