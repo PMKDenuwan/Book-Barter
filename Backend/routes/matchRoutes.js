@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { getMatches } = require('../controllers/matchController');
-const protect = require('../middleware/auth');
+const authenticate = require('../middleware/authenticate');
 
-router.get('/', protect, getMatches);
+router.get('/', authenticate, getMatches);
 
 module.exports = router;
