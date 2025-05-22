@@ -6,6 +6,7 @@ const userRoutes = require('./routes/userRoutes');
 const postRoutes = require('./routes/postRoutes');
 const bookRoutes = require('./routes/bookRoutes');
 const matchRoutes = require('./routes/matchRoutes');
+const tradeRoutes = require('./routes/tradeRoutes');
 const path = require('path');
 
 dotenv.config();
@@ -20,6 +21,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/posts', postRoutes);
 app.use('/api/books', bookRoutes);
 app.use('/api/match', matchRoutes);
+app.use('/api/trades', tradeRoutes);
 
 // DB Sync and Server Start
 sequelize.sync().then(() => {
